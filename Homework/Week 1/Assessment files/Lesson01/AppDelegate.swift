@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Week 1 Assessment
+//  Lesson01
 //
-//  Created by Monica He on 12/22/14.
-//  Copyright (c) 2014 Monica He. All rights reserved.
+//  Created by Rudd Taylor on 9/28/14.
+//  Copyright (c) 2014 General Assembly. All rights reserved.
 //
 
 import UIKit

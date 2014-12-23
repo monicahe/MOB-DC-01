@@ -1,15 +1,15 @@
 //
-//  Week_1_AssessmentTests.swift
-//  Week 1 AssessmentTests
+//  Lesson01Tests.swift
+//  Lesson01Tests
 //
-//  Created by Monica He on 12/22/14.
-//  Copyright (c) 2014 Monica He. All rights reserved.
+//  Created by Rudd Taylor on 9/28/14.
+//  Copyright (c) 2014 General Assembly. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Week_1_AssessmentTests: XCTestCase {
+class Lesson01Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
