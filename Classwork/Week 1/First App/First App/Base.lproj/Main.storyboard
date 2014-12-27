@@ -31,18 +31,26 @@
                                     <rect key="frame" x="93" y="280" width="215" height="161"/>
                                 </variation>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E3E-Y6-8NI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="105" y="442" width="240" height="128"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="KPS-mV-kuY"/>
                                 <exclude reference="lY6-lZ-yfI"/>
+                                <exclude reference="E3E-Y6-8NI"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="KPS-mV-kuY"/>
                                 <include reference="lY6-lZ-yfI"/>
+                                <include reference="E3E-Y6-8NI"/>
                             </mask>
                         </variation>
                     </view>
