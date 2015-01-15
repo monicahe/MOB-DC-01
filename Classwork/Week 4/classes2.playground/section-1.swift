@@ -12,6 +12,13 @@ class Vehicle {
     func go() {
         println ("Vroom vroom")
     }
+    func inspectCar() {
+        println ("This car has \(self.numberOfSeats) seats and \(self.numberOfAxels) axels")
+    }
+    
+    func aboutVehicles() {
+        println("Cars are awesome")
+    }
     
 }
 
@@ -22,4 +29,4 @@ myCar.color = "Green"
 myCar.numberOfSeats = 4
 myCar.numberOfAxels = 4
 
-myCar
+myCar.inspectCar()

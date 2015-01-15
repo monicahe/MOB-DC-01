@@ -14,6 +14,7 @@
 		3C27E5311A6499D90020C65D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C27E52F1A6499D90020C65D /* LaunchScreen.xib */; };
 		3C27E53D1A6499D90020C65D /* IB_Coding_Demo_MHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C27E53C1A6499D90020C65D /* IB_Coding_Demo_MHTests.swift */; };
 		3C27E5471A649C070020C65D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C27E5461A649C070020C65D /* SecondViewController.swift */; };
+		3CD9A8171A673A950039ED60 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD9A8161A673A950039ED60 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3C27E53B1A6499D90020C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C27E53C1A6499D90020C65D /* IB_Coding_Demo_MHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IB_Coding_Demo_MHTests.swift; sourceTree = "<group>"; };
 		3C27E5461A649C070020C65D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3CD9A8161A673A950039ED60 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3C27E5261A6499D90020C65D /* AppDelegate.swift */,
 				3C27E5281A6499D90020C65D /* ViewController.swift */,
 				3C27E52A1A6499D90020C65D /* Main.storyboard */,
+				3CD9A8161A673A950039ED60 /* Animal.swift */,
 				3C27E52D1A6499D90020C65D /* Images.xcassets */,
 				3C27E52F1A6499D90020C65D /* LaunchScreen.xib */,
 				3C27E5241A6499D90020C65D /* Supporting Files */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C27E5471A649C070020C65D /* SecondViewController.swift in Sources */,
+				3CD9A8171A673A950039ED60 /* Animal.swift in Sources */,
 				3C27E5291A6499D90020C65D /* ViewController.swift in Sources */,
 				3C27E5271A6499D90020C65D /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				3C27E5421A6499D90020C65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C27E5431A6499D90020C65D /* Build configuration list for PBXNativeTarget "IB Coding Demo MHTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				3C27E5451A6499D90020C65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
