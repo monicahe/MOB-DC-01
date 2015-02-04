@@ -81,10 +81,39 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="170" y="337" width="60" height="30"/>
+                                    <rect key="frame" x="170" y="336" width="60" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="saveAndGoBack:" destination="1Ns-VV-6AJ" eventType="touchUpInside" id="BOo-mq-Fsj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Something" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bO-G2-SHC">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="136" y="181" width="128" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hidden Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vS6-dA-STl">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="149" y="413" width="102" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RH7-4b-mPU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Post Notification">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="481" width="368" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="pressPostButton:" destination="1Ns-VV-6AJ" eventType="touchUpInside" id="26o-Um-lut"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -93,17 +122,25 @@
                             <mask key="subviews">
                                 <exclude reference="QSq-aE-Qlt"/>
                                 <exclude reference="aYp-NI-nbt"/>
+                                <exclude reference="7bO-G2-SHC"/>
+                                <exclude reference="vS6-dA-STl"/>
+                                <exclude reference="RH7-4b-mPU"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="QSq-aE-Qlt"/>
                                 <include reference="aYp-NI-nbt"/>
+                                <include reference="7bO-G2-SHC"/>
+                                <include reference="vS6-dA-STl"/>
+                                <include reference="RH7-4b-mPU"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="addTextBox" destination="QSq-aE-Qlt" id="6cL-IV-A6N"/>
+                        <outlet property="addTextBox" destination="QSq-aE-Qlt" id="gQq-hV-4JA"/>
+                        <outlet property="errorMessage" destination="7bO-G2-SHC" id="a3j-OF-3Aj"/>
+                        <outlet property="hiddenLabel" destination="vS6-dA-STl" id="7qI-Cb-dbi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Jf-QY-rAM" userLabel="First Responder" sceneMemberID="firstResponder"/>

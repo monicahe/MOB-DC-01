@@ -8,7 +8,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         initiateRightSwipeOnBox ()
     }
-   
+
+//    @IBAction func displayTableView(sender: AnyObject) {
+//        self.performSegueWithIdentifier("showTableVC", sender: nil)
+//    }
+    
     func initiateRightSwipeOnBox(){
         
         let swipeR = UISwipeGestureRecognizer(target: self, action: "swipedRight:")

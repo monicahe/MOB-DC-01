@@ -12,28 +12,60 @@ protocol Campus {
     func addCampusToArray(campusName: String)
 }
 
-class AddViewController: UIViewController {
-
+class AddViewController: UIViewController, UITextFieldDelegate {
+  
     @IBOutlet weak var addTextBox: UITextField!
+    @IBOutlet weak var errorMessage: UILabel!
     
     var delegate: Campus?
     
+    @IBOutlet weak var hiddenLabel: UILabel!
     @IBAction func saveAndGoBack(sender: AnyObject) {
         self.delegate?.addCampusToArray(addTextBox.text)
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func pressPostButton(sender: AnyObject) {
+//        first step in setting notification
+        NSNotificationCenter.defaultCenter().postNotificationName("unhideHiddenLabels", object: nil)
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.addTextBox.delegate = self
+        self.errorMessage.hidden = true
+        self.hiddenLabel.hidden = true
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "unhideCurrentLabels:",
+            name: "unhideHiddenLabels",
+            object: nil)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textHasChanged:", name: UITextFieldTextDidChangeNotification, object: nil)
+    }
+    
+    func textHasChanged(notification:NSNotification) {
+        println("Horray, text has changed")
+    }
+    
+    func unhideCurrentLabels(notification:NSNotification) {
+        self.hiddenLabel.hidden = false
+        println("Triggered unhideHiddenLabels notification")
+        
+    }
+    
+    func textfieldshouldreturn(textField: UITextField) -> Bool {
+        if self.addTextBox.text.isEmpty {
+          println("Your text field is empty, enter something!")
+          textField.resignFirstResponder()
+            self.errorMessage.hidden = false
+            }else {
+                self.errorMessage.hidden = true
+        }
+        return true
+    }
+    
+        // Dispose of any resources that can be recreated.
+
 
     /*
     // MARK: - Navigation

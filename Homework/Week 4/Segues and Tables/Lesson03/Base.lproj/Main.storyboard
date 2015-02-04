@@ -39,16 +39,17 @@
                                     <rect key="frame" x="39" y="161" width="302" height="194"/>
                                 </variation>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3u-ms-Nhr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hL-sn-tkg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Go To TODO List">
+                                <state key="normal" title="Go to TODO List">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="426" width="117" height="30"/>
+                                    <rect key="frame" x="133" y="433" width="114" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="uqs-JA-1SN" kind="show" id="PsJ-70-bKY"/>
+                                    <action selector="displayTableView:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JGo-ow-K3x"/>
+                                    <segue destination="uqs-JA-1SN" kind="show" id="BvS-zD-CyU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -56,13 +57,13 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="SeT-bw-oCP"/>
-                                <exclude reference="D3u-ms-Nhr"/>
+                                <exclude reference="3hL-sn-tkg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="SeT-bw-oCP"/>
-                                <include reference="D3u-ms-Nhr"/>
+                                <include reference="3hL-sn-tkg"/>
                             </mask>
                         </variation>
                     </view>
@@ -74,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="407"/>
+            <point key="canvasLocation" x="279" y="407"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Oz7-k7-kit">
@@ -135,34 +136,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BOT-Yz-VmB">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="gnK-bD-Et1">
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BOT-Yz-VmB" id="5sf-rb-ASg">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gnK-bD-Et1" id="cZD-N0-Ldh">
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1t-sd-LnV">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <state key="normal" title="Add ToDo">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="307" y="5" width="68" height="30"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="addToDo:" destination="uqs-JA-1SN" eventType="touchUpInside" id="UtN-Dg-6i1"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <variation key="default">
-                                        <mask key="subviews">
-                                            <exclude reference="u1t-sd-LnV"/>
-                                        </mask>
-                                    </variation>
-                                    <variation key="widthClass=compact">
-                                        <mask key="subviews">
-                                            <include reference="u1t-sd-LnV"/>
-                                        </mask>
-                                    </variation>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>

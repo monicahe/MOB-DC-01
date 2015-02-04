@@ -7,7 +7,6 @@
 //  Copyright (c) 2015 Monica He. All rights reserved.
 //
 
-
 import UIKit
 
 class ArrayTableViewController: UITableViewController, ToDo {
