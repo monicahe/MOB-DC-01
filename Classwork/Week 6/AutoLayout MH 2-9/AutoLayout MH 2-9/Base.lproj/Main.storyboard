@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AutoLayout_MH_2_9" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUK-Ed-NYx">
+                                <rect key="frame" x="36" y="40" width="153" height="147"/>
+                                <color key="backgroundColor" red="1" green="0.81451337684084346" blue="0.06138088710792533" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="IiF-IR-8yM"/>
+                                    <constraint firstAttribute="width" constant="153" id="SMv-S6-RkH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQu-DZ-42K">
+                                <rect key="frame" x="465" y="40" width="99" height="88"/>
+                                <color key="backgroundColor" red="1" green="0.075862894489999999" blue="0.063729575329999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="F45-Lh-l8w"/>
+                                    <constraint firstAttribute="height" constant="88" id="Fb0-Zl-shL"/>
+                                    <constraint firstAttribute="width" constant="99" id="WKX-5C-8aR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="99" id="mgS-wd-Usx"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLZ-U6-4iM">
+                                <rect key="frame" x="140" y="480" width="321" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.075862894489999999" blue="0.063729575329999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Increase Distance between Ghost and Pacman">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="increaseDistanceBetweenPacmanAndGhost:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YNB-Lg-ztv"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNh-r6-wTi">
+                                <rect key="frame" x="36" y="231" width="99" height="88"/>
+                                <color key="backgroundColor" red="0.5301340323" green="0.00379641598" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="99" id="az4-R9-ssg"/>
+                                    <constraint firstAttribute="height" constant="88" id="fSr-OP-4wJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fUK-Ed-NYx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="GC0-e9-Kwa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yQu-DZ-42K" secondAttribute="trailing" constant="20" id="HEY-XA-eWj"/>
+                            <constraint firstItem="fUK-Ed-NYx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="JX3-kw-6Vw"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="PLZ-U6-4iM" secondAttribute="bottom" constant="90" id="ZWj-8L-FEf"/>
+                            <constraint firstItem="gNh-r6-wTi" firstAttribute="top" secondItem="fUK-Ed-NYx" secondAttribute="bottom" constant="44" id="esi-iU-KNM"/>
+                            <constraint firstItem="yQu-DZ-42K" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="jyV-yK-KmN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="increaseDistanceBetweenPacmanandGhost" destination="PLZ-U6-4iM" id="feL-Jn-byV"/>
+                        <outlet property="verticalSpacingBetweenPurpleGhostandPacman" destination="esi-iU-KNM" id="7sh-i0-4ij"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="-806"/>
+        </scene>
+    </scenes>
+</document>
