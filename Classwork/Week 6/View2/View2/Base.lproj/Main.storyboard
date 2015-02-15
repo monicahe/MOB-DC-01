@@ -68,6 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244" y="358"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wbL-Ri-p4K">
@@ -94,26 +95,36 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaD-pD-e1J">
                                 <rect key="frame" x="404" y="550" width="140" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.81451337680000002" blue="0.061380887109999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="MAR-bO-aZo"/>
+                                </constraints>
                                 <state key="normal" title="This is a long button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-Hi-Nwl">
-                                <rect key="frame" x="338" y="550" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-Hi-Nwl">
+                                <rect key="frame" x="279" y="550" width="52" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="6dw-On-chQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="HO5-if-h0o"/>
                                     <constraint firstAttribute="height" constant="30" id="SlZ-pH-ETB"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SlZ-pH-ETB"/>
+                                    </mask>
+                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="RaD-pD-e1J" secondAttribute="trailing" constant="40" id="08z-tw-UB8"/>
+                            <constraint firstItem="c1G-Hi-Nwl" firstAttribute="leading" secondItem="bhO-x0-GoA" secondAttribute="leadingMargin" priority="250" constant="265" id="4Qb-7j-hCv"/>
                             <constraint firstItem="LeK-JJ-VbP" firstAttribute="top" secondItem="RaD-pD-e1J" secondAttribute="bottom" constant="20" id="FJd-lP-vfG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1hT-wx-Zd1" secondAttribute="trailing" constant="20" id="IXV-XY-mx0"/>
                             <constraint firstItem="nfm-0a-o1R" firstAttribute="leading" secondItem="bhO-x0-GoA" secondAttribute="leadingMargin" constant="20" id="TRe-Uw-i15"/>
@@ -128,6 +139,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="WvV-6x-ByV"/>
                                 <exclude reference="n80-Bu-A13"/>
                             </mask>
                         </variation>
@@ -135,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLZ-sw-qW5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="352"/>
+            <point key="canvasLocation" x="238" y="-310"/>
         </scene>
     </scenes>
 </document>
