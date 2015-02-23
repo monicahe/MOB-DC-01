@@ -33,11 +33,11 @@
                                     <constraint firstAttribute="height" constant="148" id="ufh-QP-hex"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LhE-kJ-wtp">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LhE-kJ-wtp">
                                 <rect key="frame" x="30" y="430" width="539" height="139"/>
                                 <color key="backgroundColor" red="1" green="0.075862894489999999" blue="0.063729575329999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWC-up-sDw">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWC-up-sDw">
                                 <rect key="frame" x="231" y="202" width="137" height="195"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBu-Jm-r7y">

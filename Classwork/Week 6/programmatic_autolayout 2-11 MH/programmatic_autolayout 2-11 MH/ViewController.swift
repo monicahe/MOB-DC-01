@@ -12,13 +12,61 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var head: UIView!
     
-    var body = UIView()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        createBody()
+        var body = UIView()
         
+            body.backgroundColor = UIColor.greenColor()
+            
+            //        add subview before adding constraints
+            self.view.addSubview(body)
+            
+            //        Default to use autoconstraint
+            //        VERY IMPORTANT!
+            body.setTranslatesAutoresizingMaskIntoConstraints(false)
+            
+            //        constraints for the body
+            let bodyWidth = NSLayoutConstraint(
+                item: body,
+                attribute: NSLayoutAttribute.Width,
+                relatedBy: NSLayoutRelation.Equal,
+                toItem: self.head,
+                attribute: NSLayoutAttribute.Width,
+                multiplier: 0.5,
+                constant: 0)
+            
+            let bodyVerticalPosition = NSLayoutConstraint(
+                item: body,
+                attribute: NSLayoutAttribute.Top,
+                relatedBy: NSLayoutRelation.Equal,
+                toItem: self.head,
+                attribute: NSLayoutAttribute.Bottom,
+                multiplier: 1,
+                constant: 0.0)
+            
+            let bodyHorizontalPosition = NSLayoutConstraint(
+                item: body,
+                attribute: NSLayoutAttribute.Leading,
+                relatedBy: NSLayoutRelation.Equal,
+                toItem: self.head,
+                attribute: NSLayoutAttribute.Leading,
+                multiplier: 1,
+                constant: self.head.frame.width/4)
+            
+            //        let bodyHeight = NSLayoutConstraint(
+            //            item: body,
+            //            attribute: NSLayoutAttribute.Height,
+            //            relatedBy: NSLayoutRelation.Equal,
+            //            toItem: self.head,
+            ////            If nil then have to hardcode the size
+            //            attribute: NSLayoutAttribute.Height,
+            //            multiplier: 2,
+            //            constant: 0)
+            
+            //        Have to add constraints (which are objects) to objects
+        self.view.addConstraints([bodyWidth, bodyVerticalPosition, bodyHorizontalPosition])
+    
         var leftArm = UIView()
         leftArm.backgroundColor = UIColor.blackColor()
         self.view.addSubview(leftArm)
@@ -206,60 +254,55 @@ class ViewController: UIViewController {
      
         self.view.addConstraint(bodyBottomPosition)
         
-    }
+    }}
 
-    func createBody()   {
-        var body = UIView()
-        body.backgroundColor = UIColor.greenColor()
-        
-        //        add subview before adding constraints
-        self.view.addSubview(body)
-        
-        //        Default to use autoconstraint
-        //        VERY IMPORTANT!
-        body.setTranslatesAutoresizingMaskIntoConstraints(false)
-        
-        //        constraints for the body
-        let bodyWidth = NSLayoutConstraint(
-            item: body,
-            attribute: NSLayoutAttribute.Width,
-            relatedBy: NSLayoutRelation.Equal,
-            toItem: self.head,
-            attribute: NSLayoutAttribute.Width,
-            multiplier: 0.5,
-            constant: 0)
-        
-        let bodyVerticalPosition = NSLayoutConstraint(
-            item: body,
-            attribute: NSLayoutAttribute.Top,
-            relatedBy: NSLayoutRelation.Equal,
-            toItem: self.head,
-            attribute: NSLayoutAttribute.Bottom,
-            multiplier: 1,
-            constant: 0.0)
-        
-        let bodyHorizontalPosition = NSLayoutConstraint(
-            item: body,
-            attribute: NSLayoutAttribute.Leading,
-            relatedBy: NSLayoutRelation.Equal,
-            toItem: self.head,
-            attribute: NSLayoutAttribute.Leading,
-            multiplier: 1,
-            constant: self.head.frame.width/4)
-        
-        //        let bodyHeight = NSLayoutConstraint(
-        //            item: body,
-        //            attribute: NSLayoutAttribute.Height,
-        //            relatedBy: NSLayoutRelation.Equal,
-        //            toItem: self.head,
-        ////            If nil then have to hardcode the size
-        //            attribute: NSLayoutAttribute.Height,
-        //            multiplier: 2,
-        //            constant: 0)
-        
-        //        Have to add constraints (which are objects) to objects
-        
-        self.view.addConstraints([bodyWidth, bodyVerticalPosition, bodyHorizontalPosition])
-    }
-}
-
+//    func createBody()   {
+//        var body = UIView()
+//        body.backgroundColor = UIColor.greenColor()
+//        
+//        //        add subview before adding constraints
+//        self.view.addSubview(body)
+//        
+//        //        Default to use autoconstraint
+//        //        VERY IMPORTANT!
+//        body.setTranslatesAutoresizingMaskIntoConstraints(false)
+//        
+//        //        constraints for the body
+//        let bodyWidth = NSLayoutConstraint(
+//            item: body,
+//            attribute: NSLayoutAttribute.Width,
+//            relatedBy: NSLayoutRelation.Equal,
+//            toItem: self.head,
+//            attribute: NSLayoutAttribute.Width,
+//            multiplier: 0.5,
+//            constant: 0)
+//        
+//        let bodyVerticalPosition = NSLayoutConstraint(
+//            item: body,
+//            attribute: NSLayoutAttribute.Top,
+//            relatedBy: NSLayoutRelation.Equal,
+//            toItem: self.head,
+//            attribute: NSLayoutAttribute.Bottom,
+//            multiplier: 1,
+//            constant: 0.0)
+//        
+//        let bodyHorizontalPosition = NSLayoutConstraint(
+//            item: body,
+//            attribute: NSLayoutAttribute.Leading,
+//            relatedBy: NSLayoutRelation.Equal,
+//            toItem: self.head,
+//            attribute: NSLayoutAttribute.Leading,
+//            multiplier: 1,
+//            constant: self.head.frame.width/4)
+//        
+//        //        let bodyHeight = NSLayoutConstraint(
+//        //            item: body,
+//        //            attribute: NSLayoutAttribute.Height,
+//        //            relatedBy: NSLayoutRelation.Equal,
+//        //            toItem: self.head,
+//        ////            If nil then have to hardcode the size
+//        //            attribute: NSLayoutAttribute.Height,
+//        //            multiplier: 2,
+//        //            constant: 0)
+//        
+//        //        Have to add constraints (which are objects) to objects
