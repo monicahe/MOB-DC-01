@@ -1,25 +1,24 @@
-//
+
 //  ViewController.swift
 //  midtermCalculator
 //
 //  Created by Monica He on 2/19/15.
 //  Copyright (c) 2015 Monica He. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var displayScreen: UILabel!
-    
+
     var firstNumber = Int()
     var secondNumber = Int()
     var isTypingNumber = false
     var results = Int()
     var operation = ""
-    
+
     @IBAction func number(sender: AnyObject) {
-        
+   
         var number = sender.currentTitle
         if isTypingNumber == true {
             displayScreen.text = displayScreen.text! + number!!
@@ -31,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func operation(sender: AnyObject) {
-        
+ 
         isTypingNumber = false
         firstNumber = displayScreen.text!.toInt()!
         operation = sender.currentTitle!!
@@ -57,7 +56,7 @@ class ViewController: UIViewController {
         displayScreen.text = "\(results)"
         
     }
-    
+        
     @IBAction func allClear(sender: AnyObject) {
         
         firstNumber = 0
@@ -69,15 +68,5 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
 
 }
-
