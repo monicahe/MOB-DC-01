@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Swift.h",
+          'external-contents': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods-umbrella.h",
+          'external-contents': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/Pods/Target Support Files/Pods/Pods-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods.framework/Modules/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/Pods/Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods/SwiftyJSON.framework/Modules/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

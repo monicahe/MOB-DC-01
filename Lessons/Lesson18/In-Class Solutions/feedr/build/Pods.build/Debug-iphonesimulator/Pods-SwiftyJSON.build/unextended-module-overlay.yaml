@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Debug-iphonesimulator/Pods/SwiftyJSON.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/monicahe/MOB-DC-01/Lessons/Lesson18/In-Class Solutions/feedr/build/Pods.build/Debug-iphonesimulator/Pods-SwiftyJSON.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A15606BC-4050-4924-BF71-F0D99E6D1D68</string>
+	<string>E6DE9380-9E6E-40EF-9B63-EB060F476812</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Feedr</string>
+	<string>Pods</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>10A52EA4FBADB6C746B5260032017E5923CCC696</key>
 		<string>https://github.com/monicahe/MOB-DC-01.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Lessons/Lesson18/In-Class Solutions/feedr/Feedr.xcodeproj</string>
+	<string>Lessons/Lesson18/In-Class Solutions/feedr/Pods/Pods.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>10A52EA4FBADB6C746B5260032017E5923CCC696</key>
-		<string>../../../../../..</string>
+		<string>../../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/monicahe/MOB-DC-01.git</string>
