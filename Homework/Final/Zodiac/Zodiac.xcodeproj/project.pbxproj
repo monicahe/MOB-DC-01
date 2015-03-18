@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C51EAC71AB790D2002AE68D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51EAC61AB790D2002AE68D /* AppDelegate.swift */; };
+		3C51EACA1AB790D2002AE68D /* Zodiac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C51EAC81AB790D2002AE68D /* Zodiac.xcdatamodeld */; };
+		3C51EACC1AB790D2002AE68D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51EACB1AB790D2002AE68D /* ViewController.swift */; };
+		3C51EACF1AB790D2002AE68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C51EACD1AB790D2002AE68D /* Main.storyboard */; };
+		3C51EAD11AB790D2002AE68D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C51EAD01AB790D2002AE68D /* Images.xcassets */; };
+		3C51EAD41AB790D3002AE68D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C51EAD21AB790D3002AE68D /* LaunchScreen.xib */; };
+		3C51EAE01AB790D3002AE68D /* ZodiacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51EADF1AB790D3002AE68D /* ZodiacTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C51EADA1AB790D3002AE68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C51EAB91AB790D2002AE68D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C51EAC01AB790D2002AE68D;
+			remoteInfo = Zodiac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C51EAC11AB790D2002AE68D /* Zodiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zodiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C51EAC51AB790D2002AE68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C51EAC61AB790D2002AE68D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C51EAC91AB790D2002AE68D /* Zodiac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zodiac.xcdatamodel; sourceTree = "<group>"; };
+		3C51EACB1AB790D2002AE68D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C51EACE1AB790D2002AE68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C51EAD01AB790D2002AE68D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C51EAD31AB790D3002AE68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C51EAD91AB790D3002AE68D /* ZodiacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C51EADE1AB790D3002AE68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C51EADF1AB790D3002AE68D /* ZodiacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C51EABE1AB790D2002AE68D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C51EAD61AB790D3002AE68D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C51EAB81AB790D2002AE68D = {
+			isa = PBXGroup;
+			children = (
+				3C51EAC31AB790D2002AE68D /* Zodiac */,
+				3C51EADC1AB790D3002AE68D /* ZodiacTests */,
+				3C51EAC21AB790D2002AE68D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C51EAC21AB790D2002AE68D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C51EAC11AB790D2002AE68D /* Zodiac.app */,
+				3C51EAD91AB790D3002AE68D /* ZodiacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C51EAC31AB790D2002AE68D /* Zodiac */ = {
+			isa = PBXGroup;
+			children = (
+				3C51EAC61AB790D2002AE68D /* AppDelegate.swift */,
+				3C51EACB1AB790D2002AE68D /* ViewController.swift */,
+				3C51EACD1AB790D2002AE68D /* Main.storyboard */,
+				3C51EAD01AB790D2002AE68D /* Images.xcassets */,
+				3C51EAD21AB790D3002AE68D /* LaunchScreen.xib */,
+				3C51EAC81AB790D2002AE68D /* Zodiac.xcdatamodeld */,
+				3C51EAC41AB790D2002AE68D /* Supporting Files */,
+			);
+			path = Zodiac;
+			sourceTree = "<group>";
+		};
+		3C51EAC41AB790D2002AE68D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C51EAC51AB790D2002AE68D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C51EADC1AB790D3002AE68D /* ZodiacTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C51EADF1AB790D3002AE68D /* ZodiacTests.swift */,
+				3C51EADD1AB790D3002AE68D /* Supporting Files */,
+			);
+			path = ZodiacTests;
+			sourceTree = "<group>";
+		};
+		3C51EADD1AB790D3002AE68D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C51EADE1AB790D3002AE68D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C51EAC01AB790D2002AE68D /* Zodiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C51EAE31AB790D3002AE68D /* Build configuration list for PBXNativeTarget "Zodiac" */;
+			buildPhases = (
+				3C51EABD1AB790D2002AE68D /* Sources */,
+				3C51EABE1AB790D2002AE68D /* Frameworks */,
+				3C51EABF1AB790D2002AE68D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zodiac;
+			productName = Zodiac;
+			productReference = 3C51EAC11AB790D2002AE68D /* Zodiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C51EAD81AB790D3002AE68D /* ZodiacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C51EAE61AB790D3002AE68D /* Build configuration list for PBXNativeTarget "ZodiacTests" */;
+			buildPhases = (
+				3C51EAD51AB790D3002AE68D /* Sources */,
+				3C51EAD61AB790D3002AE68D /* Frameworks */,
+				3C51EAD71AB790D3002AE68D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C51EADB1AB790D3002AE68D /* PBXTargetDependency */,
+			);
+			name = ZodiacTests;
+			productName = ZodiacTests;
+			productReference = 3C51EAD91AB790D3002AE68D /* ZodiacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C51EAB91AB790D2002AE68D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Monica He";
+				TargetAttributes = {
+					3C51EAC01AB790D2002AE68D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3C51EAD81AB790D3002AE68D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3C51EAC01AB790D2002AE68D;
+					};
+				};
+			};
+			buildConfigurationList = 3C51EABC1AB790D2002AE68D /* Build configuration list for PBXProject "Zodiac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C51EAB81AB790D2002AE68D;
+			productRefGroup = 3C51EAC21AB790D2002AE68D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C51EAC01AB790D2002AE68D /* Zodiac */,
+				3C51EAD81AB790D3002AE68D /* ZodiacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C51EABF1AB790D2002AE68D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C51EACF1AB790D2002AE68D /* Main.storyboard in Resources */,
+				3C51EAD41AB790D3002AE68D /* LaunchScreen.xib in Resources */,
+				3C51EAD11AB790D2002AE68D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C51EAD71AB790D3002AE68D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C51EABD1AB790D2002AE68D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C51EACC1AB790D2002AE68D /* ViewController.swift in Sources */,
+				3C51EAC71AB790D2002AE68D /* AppDelegate.swift in Sources */,
+				3C51EACA1AB790D2002AE68D /* Zodiac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C51EAD51AB790D3002AE68D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C51EAE01AB790D3002AE68D /* ZodiacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C51EADB1AB790D3002AE68D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C51EAC01AB790D2002AE68D /* Zodiac */;
+			targetProxy = 3C51EADA1AB790D3002AE68D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C51EACD1AB790D2002AE68D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C51EACE1AB790D2002AE68D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C51EAD21AB790D3002AE68D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C51EAD31AB790D3002AE68D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C51EAE11AB790D3002AE68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C51EAE21AB790D3002AE68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C51EAE41AB790D3002AE68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zodiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C51EAE51AB790D3002AE68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zodiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C51EAE71AB790D3002AE68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZodiacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zodiac.app/Zodiac";
+			};
+			name = Debug;
+		};
+		3C51EAE81AB790D3002AE68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZodiacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zodiac.app/Zodiac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C51EABC1AB790D2002AE68D /* Build configuration list for PBXProject "Zodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C51EAE11AB790D3002AE68D /* Debug */,
+				3C51EAE21AB790D3002AE68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C51EAE31AB790D3002AE68D /* Build configuration list for PBXNativeTarget "Zodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C51EAE41AB790D3002AE68D /* Debug */,
+				3C51EAE51AB790D3002AE68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C51EAE61AB790D3002AE68D /* Build configuration list for PBXNativeTarget "ZodiacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C51EAE71AB790D3002AE68D /* Debug */,
+				3C51EAE81AB790D3002AE68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C51EAC81AB790D2002AE68D /* Zodiac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C51EAC91AB790D2002AE68D /* Zodiac.xcdatamodel */,
+			);
+			currentVersion = 3C51EAC91AB790D2002AE68D /* Zodiac.xcdatamodel */;
+			path = Zodiac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C51EAB91AB790D2002AE68D /* Project object */;
+}
