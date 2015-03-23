@@ -14,6 +14,7 @@
 		3C2731D01ABA323B000E56E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2731CF1ABA323B000E56E0 /* Images.xcassets */; };
 		3C2731D31ABA323B000E56E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2731D11ABA323B000E56E0 /* LaunchScreen.xib */; };
 		3C2731DF1ABA323B000E56E0 /* ZodiacVersion1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2731DE1ABA323B000E56E0 /* ZodiacVersion1Tests.swift */; };
+		3CC04EE01ABE03A20040DEF2 /* FlashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC04EDF1ABE03A20040DEF2 /* FlashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3C2731D81ABA323B000E56E0 /* ZodiacVersion1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacVersion1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2731DD1ABA323B000E56E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2731DE1ABA323B000E56E0 /* ZodiacVersion1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacVersion1Tests.swift; sourceTree = "<group>"; };
+		3CC04EDF1ABE03A20040DEF2 /* FlashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3C2731D11ABA323B000E56E0 /* LaunchScreen.xib */,
 				3C2731C71ABA323B000E56E0 /* ZodiacVersion1.xcdatamodeld */,
 				3C2731C31ABA323B000E56E0 /* Supporting Files */,
+				3CC04EDF1ABE03A20040DEF2 /* FlashViewController.swift */,
 			);
 			path = ZodiacVersion1;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2731CB1ABA323B000E56E0 /* ViewController.swift in Sources */,
+				3CC04EE01ABE03A20040DEF2 /* FlashViewController.swift in Sources */,
 				3C2731C91ABA323B000E56E0 /* ZodiacVersion1.xcdatamodeld in Sources */,
 				3C2731C61ABA323B000E56E0 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				3C2731E41ABA323B000E56E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C2731E51ABA323B000E56E0 /* Build configuration list for PBXNativeTarget "ZodiacVersion1Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				3C2731E71ABA323B000E56E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
