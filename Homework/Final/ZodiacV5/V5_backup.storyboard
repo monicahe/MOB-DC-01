@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DfN-oV-aTI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZodiacV5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sk7-ES-PoA"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Tg-98-10F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3OU-le-9aU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8W-Ct-GxY">
+                                <rect key="frame" x="213" y="90" width="149" height="118"/>
+                                <state key="normal" title="OX" image="Ox_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedAnimal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBh-Ak-Hsz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmV-o8-u9V">
+                                <rect key="frame" x="376" y="90" width="149" height="118"/>
+                                <state key="normal" title="TIGER" image="Tiger_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfQ-lg-FIn">
+                                <rect key="frame" x="39" y="192" width="149" height="118"/>
+                                <state key="normal" title="RABBIT" image="Rabbit_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rS9-Jw-jkM">
+                                <rect key="frame" x="213" y="192" width="149" height="118"/>
+                                <state key="normal" title="DRAGON" image="Dragon_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6U-KR-QEk">
+                                <rect key="frame" x="401" y="192" width="149" height="118"/>
+                                <state key="normal" title="SNAKE" image="Snake_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9H-mz-HL8">
+                                <rect key="frame" x="39" y="294" width="149" height="118"/>
+                                <state key="normal" title="HORSE" image="Horse_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fp6-O2-FWA">
+                                <rect key="frame" x="213" y="294" width="149" height="118"/>
+                                <state key="normal" title="LAMB" image="Lamb_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSJ-XL-b0g">
+                                <rect key="frame" x="401" y="294" width="149" height="118"/>
+                                <state key="normal" title="MONKEY" image="Monkey_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQ6-GA-oE5">
+                                <rect key="frame" x="39" y="396" width="149" height="118"/>
+                                <state key="normal" title="ROOSTER" image="Rooster_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6L-se-vfc">
+                                <rect key="frame" x="213" y="396" width="149" height="118"/>
+                                <state key="normal" title="DOG" image="Dog_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7O-Il-bix">
+                                <rect key="frame" x="401" y="396" width="149" height="118"/>
+                                <state key="normal" title="PIG" image="Pig_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRF-GG-cgy">
+                                <rect key="frame" x="39" y="90" width="149" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="jdj-ve-qvb"/>
+                                    <constraint firstAttribute="height" constant="100" id="mOG-iZ-hR6"/>
+                                </constraints>
+                                <state key="normal" title="RAT" image="Rat_image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedAnimal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I9D-1E-aJR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="k7O-Il-bix" secondAttribute="trailing" priority="750" constant="120" id="1tc-jE-uRa"/>
+                            <constraint firstItem="EQ6-GA-oE5" firstAttribute="leading" secondItem="3OU-le-9aU" secondAttribute="leadingMargin" priority="750" constant="120" id="1xt-5w-HKA"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="height" secondItem="N8W-Ct-GxY" secondAttribute="height" id="2M8-HJ-1Jl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E6U-KR-QEk" secondAttribute="trailing" priority="750" constant="120" id="3dF-2z-hWV"/>
+                            <constraint firstItem="rfQ-lg-FIn" firstAttribute="top" secondItem="mRF-GG-cgy" secondAttribute="bottom" constant="2" id="3mi-Dy-UAU"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="height" secondItem="k7O-Il-bix" secondAttribute="height" id="4In-lD-WKW"/>
+                            <constraint firstItem="N8W-Ct-GxY" firstAttribute="width" secondItem="rmV-o8-u9V" secondAttribute="width" id="7yB-nc-N0B"/>
+                            <constraint firstItem="rfQ-lg-FIn" firstAttribute="leading" secondItem="3OU-le-9aU" secondAttribute="leadingMargin" priority="750" constant="120" id="8Lc-Ny-fiG"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="height" secondItem="EQ6-GA-oE5" secondAttribute="height" id="AJQ-2r-emW"/>
+                            <constraint firstItem="EQ6-GA-oE5" firstAttribute="top" secondItem="Y9H-mz-HL8" secondAttribute="bottom" constant="2" id="Aun-9n-Yoo"/>
+                            <constraint firstItem="fp6-O2-FWA" firstAttribute="leading" secondItem="Y9H-mz-HL8" secondAttribute="trailing" constant="2" id="CI1-wi-9OI"/>
+                            <constraint firstItem="E6U-KR-QEk" firstAttribute="top" secondItem="rmV-o8-u9V" secondAttribute="bottom" constant="2" id="CTU-sb-uKi"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="width" secondItem="rfQ-lg-FIn" secondAttribute="width" id="CTi-bq-aLH"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="leading" secondItem="fp6-O2-FWA" secondAttribute="trailing" constant="2" id="CZb-0B-2hM"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="height" secondItem="fp6-O2-FWA" secondAttribute="height" id="Dz8-h7-YWD"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="width" secondItem="q6L-se-vfc" secondAttribute="width" id="Fdu-ro-tOP"/>
+                            <constraint firstItem="Y9H-mz-HL8" firstAttribute="leading" secondItem="3OU-le-9aU" secondAttribute="leadingMargin" priority="750" constant="120" id="GvM-OQ-6kj"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="width" secondItem="EQ6-GA-oE5" secondAttribute="width" id="HQ8-Ay-I8Y"/>
+                            <constraint firstItem="rmV-o8-u9V" firstAttribute="leading" secondItem="N8W-Ct-GxY" secondAttribute="trailing" constant="2" id="HUa-Ls-efd"/>
+                            <constraint firstItem="q6L-se-vfc" firstAttribute="leading" secondItem="EQ6-GA-oE5" secondAttribute="trailing" constant="2" id="Hfk-23-RnV"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="height" secondItem="rfQ-lg-FIn" secondAttribute="height" id="JAM-e6-b3L"/>
+                            <constraint firstItem="N8W-Ct-GxY" firstAttribute="width" secondItem="mRF-GG-cgy" secondAttribute="width" id="KKP-Xk-i4x"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="top" secondItem="N8W-Ct-GxY" secondAttribute="bottom" constant="2" id="KyZ-43-Rpj"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="width" secondItem="N8W-Ct-GxY" secondAttribute="width" id="Mph-NY-uPf"/>
+                            <constraint firstAttribute="centerX" secondItem="N8W-Ct-GxY" secondAttribute="centerX" id="N5y-RC-3Rb"/>
+                            <constraint firstItem="N8W-Ct-GxY" firstAttribute="height" secondItem="rmV-o8-u9V" secondAttribute="height" id="Ng4-tY-V57"/>
+                            <constraint firstItem="k7O-Il-bix" firstAttribute="leading" secondItem="q6L-se-vfc" secondAttribute="trailing" constant="2" id="P6G-ji-Gtc"/>
+                            <constraint firstItem="rmV-o8-u9V" firstAttribute="top" secondItem="sk7-ES-PoA" secondAttribute="bottom" priority="750" constant="70" id="PJi-Yj-fy7"/>
+                            <constraint firstItem="4Tg-98-10F" firstAttribute="top" secondItem="EQ6-GA-oE5" secondAttribute="bottom" priority="750" constant="120" id="SIN-7Q-Eg4"/>
+                            <constraint firstItem="q6L-se-vfc" firstAttribute="top" secondItem="fp6-O2-FWA" secondAttribute="bottom" constant="2" id="VwX-8G-hGE"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="width" secondItem="k7O-Il-bix" secondAttribute="width" id="WLc-Mc-tb2"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="width" secondItem="rmV-o8-u9V" secondAttribute="width" id="ZAJ-eV-hPh"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="width" secondItem="E6U-KR-QEk" secondAttribute="width" id="ZOD-Zk-5dT"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="height" secondItem="Y9H-mz-HL8" secondAttribute="height" id="cJL-sn-YAh"/>
+                            <constraint firstItem="4Tg-98-10F" firstAttribute="top" secondItem="q6L-se-vfc" secondAttribute="bottom" priority="750" constant="120" id="dUq-5I-R9X"/>
+                            <constraint firstAttribute="centerX" secondItem="fp6-O2-FWA" secondAttribute="centerX" id="epD-sA-4EF"/>
+                            <constraint firstAttribute="centerX" secondItem="q6L-se-vfc" secondAttribute="centerX" id="iCh-Q8-uUt"/>
+                            <constraint firstAttribute="centerX" secondItem="rS9-Jw-jkM" secondAttribute="centerX" id="jM4-b3-nju"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="width" secondItem="fp6-O2-FWA" secondAttribute="width" id="jMd-nh-Qb6"/>
+                            <constraint firstItem="N8W-Ct-GxY" firstAttribute="leading" secondItem="mRF-GG-cgy" secondAttribute="trailing" constant="2" id="jR3-7i-78E"/>
+                            <constraint firstItem="E6U-KR-QEk" firstAttribute="leading" secondItem="rS9-Jw-jkM" secondAttribute="trailing" constant="2" id="kFx-jm-4hQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GSJ-XL-b0g" secondAttribute="trailing" priority="750" constant="120" id="l9N-SY-gUN"/>
+                            <constraint firstItem="Y9H-mz-HL8" firstAttribute="top" secondItem="rfQ-lg-FIn" secondAttribute="bottom" constant="2" id="m12-eh-faK"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="height" secondItem="rmV-o8-u9V" secondAttribute="height" id="mfo-14-OQR"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="leading" secondItem="3OU-le-9aU" secondAttribute="leadingMargin" priority="750" constant="120" id="o4h-MV-dLQ"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="width" secondItem="Y9H-mz-HL8" secondAttribute="width" id="oCK-Iq-wJJ"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="leading" secondItem="rfQ-lg-FIn" secondAttribute="trailing" constant="2" id="oNO-1S-HJ2"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="height" secondItem="E6U-KR-QEk" secondAttribute="height" id="opZ-CZ-od6"/>
+                            <constraint firstItem="k7O-Il-bix" firstAttribute="top" secondItem="GSJ-XL-b0g" secondAttribute="bottom" constant="2" id="pSI-EL-BZY"/>
+                            <constraint firstItem="mRF-GG-cgy" firstAttribute="top" secondItem="sk7-ES-PoA" secondAttribute="bottom" priority="750" constant="70" id="sZO-b6-eaa"/>
+                            <constraint firstItem="rS9-Jw-jkM" firstAttribute="height" secondItem="q6L-se-vfc" secondAttribute="height" id="tIe-4o-7UC"/>
+                            <constraint firstItem="N8W-Ct-GxY" firstAttribute="top" secondItem="sk7-ES-PoA" secondAttribute="bottom" priority="750" constant="70" id="uXZ-gK-2YY"/>
+                            <constraint firstItem="4Tg-98-10F" firstAttribute="top" secondItem="k7O-Il-bix" secondAttribute="bottom" priority="750" constant="120" id="vD3-f3-tV8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rmV-o8-u9V" secondAttribute="trailing" priority="750" constant="120" id="wBx-M0-epG"/>
+                            <constraint firstItem="fp6-O2-FWA" firstAttribute="top" secondItem="rS9-Jw-jkM" secondAttribute="bottom" constant="2" id="whA-uW-n0L"/>
+                            <constraint firstItem="N8W-Ct-GxY" firstAttribute="height" secondItem="mRF-GG-cgy" secondAttribute="height" id="xii-Rt-EZQ"/>
+                            <constraint firstItem="GSJ-XL-b0g" firstAttribute="top" secondItem="E6U-KR-QEk" secondAttribute="bottom" constant="2" id="zan-DR-CB8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OtK-u3-i3p"/>
+                    <connections>
+                        <segue destination="Shs-fo-4PM" kind="show" identifier="showDetail" id="58w-cb-k4w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="355.99999999999983"/>
+        </scene>
+        <!--Animal Detail View Conroller-->
+        <scene sceneID="DeM-yV-1Xf">
+            <objects>
+                <viewController storyboardIdentifier="showRat" id="Shs-fo-4PM" customClass="AnimalDetailViewConroller" customModule="ZodiacV5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jB4-jm-ujw"/>
+                        <viewControllerLayoutGuide type="bottom" id="AWf-pj-HXJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fcJ-jZ-sYJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DSS-x0-G1t">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="lhg-Mx-ucB">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FRK-pA-flq">
+                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <connections>
+                                <segue destination="qW3-sn-Xu4" kind="show" id="bnl-eV-EA6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYZ-16-edd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2418.75" y="355.9859154929577"/>
+        </scene>
+        <!--Ox View Controller-->
+        <scene sceneID="qWx-BX-5qa">
+            <objects>
+                <viewController storyboardIdentifier="showOx" id="qW3-sn-Xu4" customClass="OxViewController" customModule="ZodiacV5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PFQ-DK-49n"/>
+                        <viewControllerLayoutGuide type="bottom" id="VSN-aZ-yKh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ce6-hY-vDK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ExN-LB-CDv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SV9-En-bZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3105" y="355.98591549295759"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="q3c-ox-9Pk">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DfN-oV-aTI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fZv-DW-kGf">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eNq-9M-DvQ" kind="relationship" relationship="viewControllers" id="Lov-hh-86l"/>
+                        <segue destination="Uhm-BV-C96" kind="relationship" relationship="viewControllers" id="aRT-66-RzP"/>
+                        <segue destination="8jI-Hq-bLa" kind="relationship" relationship="viewControllers" id="7zk-zu-sWv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSR-Ow-ufT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="355.99999999999983"/>
+        </scene>
+        <!--FlashCards-->
+        <scene sceneID="TrG-R6-LTa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eNq-9M-DvQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="FlashCards" id="RTK-8q-XN3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jxH-gE-EJ2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="byF-R7-nCT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fL2-kM-ItH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="355.99999999999983"/>
+        </scene>
+        <!--Game-->
+        <scene sceneID="LIv-6O-V2f">
+            <objects>
+                <viewController id="Uhm-BV-C96" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p3U-1G-ZhA"/>
+                        <viewControllerLayoutGuide type="bottom" id="0rl-6f-Aw9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AVL-sQ-2v8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Game" id="cQ0-RG-Htk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEN-nN-5S5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="1080"/>
+        </scene>
+        <!--Paint-->
+        <scene sceneID="QNc-Xk-FMq">
+            <objects>
+                <viewController id="8jI-Hq-bLa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OYI-MV-q27"/>
+                        <viewControllerLayoutGuide type="bottom" id="z3D-Dd-0Qe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XLu-AB-9kW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Paint" id="FeA-bg-eic"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cry-RL-fZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="1737.9999999999993"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dog_image" width="120" height="118"/>
+        <image name="Dragon_image" width="121" height="119"/>
+        <image name="Horse_image" width="119" height="118"/>
+        <image name="Lamb_image" width="120" height="120"/>
+        <image name="Monkey_image" width="121" height="118"/>
+        <image name="Ox_image" width="120" height="119"/>
+        <image name="Pig_image" width="119" height="118"/>
+        <image name="Rabbit_image" width="119" height="118"/>
+        <image name="Rat_image" width="119" height="119"/>
+        <image name="Rooster_image" width="119" height="119"/>
+        <image name="Snake_image" width="119" height="118"/>
+        <image name="Tiger_image" width="120" height="119"/>
+    </resources>
+</document>

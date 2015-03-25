@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C41BB0C1AC1C6BE00EB4259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41BB0B1AC1C6BE00EB4259 /* AppDelegate.swift */; };
+		3C41BB0F1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C41BB0D1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodeld */; };
+		3C41BB111AC1C6BE00EB4259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41BB101AC1C6BE00EB4259 /* ViewController.swift */; };
+		3C41BB141AC1C6BE00EB4259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C41BB121AC1C6BE00EB4259 /* Main.storyboard */; };
+		3C41BB161AC1C6BE00EB4259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C41BB151AC1C6BE00EB4259 /* Images.xcassets */; };
+		3C41BB191AC1C6BE00EB4259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C41BB171AC1C6BE00EB4259 /* LaunchScreen.xib */; };
+		3C41BB251AC1C6BE00EB4259 /* ZodiacV6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41BB241AC1C6BE00EB4259 /* ZodiacV6Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C41BB1F1AC1C6BE00EB4259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C41BAFE1AC1C6BE00EB4259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C41BB051AC1C6BE00EB4259;
+			remoteInfo = ZodiacV6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C41BB061AC1C6BE00EB4259 /* ZodiacV6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZodiacV6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C41BB0A1AC1C6BE00EB4259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C41BB0B1AC1C6BE00EB4259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C41BB0E1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZodiacV6.xcdatamodel; sourceTree = "<group>"; };
+		3C41BB101AC1C6BE00EB4259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C41BB131AC1C6BE00EB4259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C41BB151AC1C6BE00EB4259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C41BB181AC1C6BE00EB4259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C41BB1E1AC1C6BE00EB4259 /* ZodiacV6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacV6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C41BB231AC1C6BE00EB4259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C41BB241AC1C6BE00EB4259 /* ZodiacV6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacV6Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C41BB031AC1C6BE00EB4259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C41BB1B1AC1C6BE00EB4259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C41BAFD1AC1C6BE00EB4259 = {
+			isa = PBXGroup;
+			children = (
+				3C41BB081AC1C6BE00EB4259 /* ZodiacV6 */,
+				3C41BB211AC1C6BE00EB4259 /* ZodiacV6Tests */,
+				3C41BB071AC1C6BE00EB4259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C41BB071AC1C6BE00EB4259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C41BB061AC1C6BE00EB4259 /* ZodiacV6.app */,
+				3C41BB1E1AC1C6BE00EB4259 /* ZodiacV6Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C41BB081AC1C6BE00EB4259 /* ZodiacV6 */ = {
+			isa = PBXGroup;
+			children = (
+				3C41BB0B1AC1C6BE00EB4259 /* AppDelegate.swift */,
+				3C41BB101AC1C6BE00EB4259 /* ViewController.swift */,
+				3C41BB121AC1C6BE00EB4259 /* Main.storyboard */,
+				3C41BB151AC1C6BE00EB4259 /* Images.xcassets */,
+				3C41BB171AC1C6BE00EB4259 /* LaunchScreen.xib */,
+				3C41BB0D1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodeld */,
+				3C41BB091AC1C6BE00EB4259 /* Supporting Files */,
+			);
+			path = ZodiacV6;
+			sourceTree = "<group>";
+		};
+		3C41BB091AC1C6BE00EB4259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C41BB0A1AC1C6BE00EB4259 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C41BB211AC1C6BE00EB4259 /* ZodiacV6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C41BB241AC1C6BE00EB4259 /* ZodiacV6Tests.swift */,
+				3C41BB221AC1C6BE00EB4259 /* Supporting Files */,
+			);
+			path = ZodiacV6Tests;
+			sourceTree = "<group>";
+		};
+		3C41BB221AC1C6BE00EB4259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C41BB231AC1C6BE00EB4259 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C41BB051AC1C6BE00EB4259 /* ZodiacV6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C41BB281AC1C6BE00EB4259 /* Build configuration list for PBXNativeTarget "ZodiacV6" */;
+			buildPhases = (
+				3C41BB021AC1C6BE00EB4259 /* Sources */,
+				3C41BB031AC1C6BE00EB4259 /* Frameworks */,
+				3C41BB041AC1C6BE00EB4259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZodiacV6;
+			productName = ZodiacV6;
+			productReference = 3C41BB061AC1C6BE00EB4259 /* ZodiacV6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C41BB1D1AC1C6BE00EB4259 /* ZodiacV6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C41BB2B1AC1C6BE00EB4259 /* Build configuration list for PBXNativeTarget "ZodiacV6Tests" */;
+			buildPhases = (
+				3C41BB1A1AC1C6BE00EB4259 /* Sources */,
+				3C41BB1B1AC1C6BE00EB4259 /* Frameworks */,
+				3C41BB1C1AC1C6BE00EB4259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C41BB201AC1C6BE00EB4259 /* PBXTargetDependency */,
+			);
+			name = ZodiacV6Tests;
+			productName = ZodiacV6Tests;
+			productReference = 3C41BB1E1AC1C6BE00EB4259 /* ZodiacV6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C41BAFE1AC1C6BE00EB4259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Monica He";
+				TargetAttributes = {
+					3C41BB051AC1C6BE00EB4259 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3C41BB1D1AC1C6BE00EB4259 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3C41BB051AC1C6BE00EB4259;
+					};
+				};
+			};
+			buildConfigurationList = 3C41BB011AC1C6BE00EB4259 /* Build configuration list for PBXProject "ZodiacV6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C41BAFD1AC1C6BE00EB4259;
+			productRefGroup = 3C41BB071AC1C6BE00EB4259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C41BB051AC1C6BE00EB4259 /* ZodiacV6 */,
+				3C41BB1D1AC1C6BE00EB4259 /* ZodiacV6Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C41BB041AC1C6BE00EB4259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C41BB141AC1C6BE00EB4259 /* Main.storyboard in Resources */,
+				3C41BB191AC1C6BE00EB4259 /* LaunchScreen.xib in Resources */,
+				3C41BB161AC1C6BE00EB4259 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C41BB1C1AC1C6BE00EB4259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C41BB021AC1C6BE00EB4259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C41BB111AC1C6BE00EB4259 /* ViewController.swift in Sources */,
+				3C41BB0C1AC1C6BE00EB4259 /* AppDelegate.swift in Sources */,
+				3C41BB0F1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C41BB1A1AC1C6BE00EB4259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C41BB251AC1C6BE00EB4259 /* ZodiacV6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C41BB201AC1C6BE00EB4259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C41BB051AC1C6BE00EB4259 /* ZodiacV6 */;
+			targetProxy = 3C41BB1F1AC1C6BE00EB4259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C41BB121AC1C6BE00EB4259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C41BB131AC1C6BE00EB4259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C41BB171AC1C6BE00EB4259 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C41BB181AC1C6BE00EB4259 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C41BB261AC1C6BE00EB4259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C41BB271AC1C6BE00EB4259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C41BB291AC1C6BE00EB4259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZodiacV6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C41BB2A1AC1C6BE00EB4259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZodiacV6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C41BB2C1AC1C6BE00EB4259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZodiacV6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZodiacV6.app/ZodiacV6";
+			};
+			name = Debug;
+		};
+		3C41BB2D1AC1C6BE00EB4259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZodiacV6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZodiacV6.app/ZodiacV6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C41BB011AC1C6BE00EB4259 /* Build configuration list for PBXProject "ZodiacV6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C41BB261AC1C6BE00EB4259 /* Debug */,
+				3C41BB271AC1C6BE00EB4259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C41BB281AC1C6BE00EB4259 /* Build configuration list for PBXNativeTarget "ZodiacV6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C41BB291AC1C6BE00EB4259 /* Debug */,
+				3C41BB2A1AC1C6BE00EB4259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C41BB2B1AC1C6BE00EB4259 /* Build configuration list for PBXNativeTarget "ZodiacV6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C41BB2C1AC1C6BE00EB4259 /* Debug */,
+				3C41BB2D1AC1C6BE00EB4259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C41BB0D1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C41BB0E1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodel */,
+			);
+			currentVersion = 3C41BB0E1AC1C6BE00EB4259 /* ZodiacV6.xcdatamodel */;
+			path = ZodiacV6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C41BAFE1AC1C6BE00EB4259 /* Project object */;
+}
